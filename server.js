@@ -4,9 +4,11 @@ const Hapi = require('hapi');
 
 const routes = require('./routes/index');
 
+require('dotenv').config({ path: 'config/variables.env' });
+
 const server = Hapi.server({
     host:'localhost',
-    port: process.env.PORT
+    port: process.env.PORT || 3000
 });
 
 server.route(routes);
