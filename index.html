@@ -9,6 +9,24 @@
     <script src="main.js"></script>
 </head>
 <body>
-    
+    <div class="contaitner">
+        <h1>API Basejump: Timestamp Microservice - freeCodeCamp</h1>
+        <blockquote> User stories:
+            <ul>
+                <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+                <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+                <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+            </ul>
+        </blockquote>
+    </div>
+    <div class="small-container">
+        <h4>Example Usage:</h4>
+        <code>https://timestampmicroservicealena.herokuapp.com//December%2015,%202015</code>
+        <code>https://timestampmicroservicealena.herokuapp.com//1850134000000</code>        
+    </div>
+    <div class="small-container">
+        <h4>Example output:</h4>
+        <code>{"unixtime":"1850134000000","natural":"August 17, 2028"}</code>    
+    </div>
 </body>
 </html>

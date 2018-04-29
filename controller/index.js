@@ -1,5 +1,4 @@
 const showResult = require('../utils/modules');
-const url = require('url');
 
 exports.view = async function (req, res) {
     const timestamp = req.params.timestamp;
