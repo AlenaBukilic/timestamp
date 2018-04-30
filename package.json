@@ -4,11 +4,14 @@
   },
   "name": "timestamp",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlenaBukilic/timestamp.git"
   },
-  "author": "",
+  "author": "AlenaBukilic",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlenaBukilic/timestamp/issues"
