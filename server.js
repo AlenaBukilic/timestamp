@@ -8,7 +8,7 @@ require('dotenv').config({ path: 'config/variables.env' });
 
 const server = Hapi.server({
     host:'localhost',
-    port: PORT
+    port: PORT || 8000
 });
 
 server.route(routes);
